@@ -2,6 +2,8 @@
 title: home
 ---
 
+(v0)
+
 <style>
 /* quick hack to hide the navbar */
 .VPNav {
