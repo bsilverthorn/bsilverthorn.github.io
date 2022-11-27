@@ -1,0 +1,24 @@
+{
+  "name": "silverthorn-blog",
+  "version": "1.0.0",
+  "description": "silverthorn.blog blog",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "author": {
+    "name": "Bryan Silverthorn",
+    "email": "bsilverthorn@gmail.com"
+  },
+  "license": "see LICENSE.md file",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-brands-svg-icons": "^6.2.1",
+    "@fortawesome/vue-fontawesome": "^3.0.2",
+    "vitepress": "^1.0.0-alpha.29",
+    "vue": "^3.2.45"
+  },
+  "private": true
+}
