@@ -10,7 +10,7 @@ import {
     faSquareGithub,
     faSquareTwitter,
 } from '@fortawesome/free-brands-svg-icons';
-import { faUserSecret } from '@fortawesome/free-solid-svg-icons';
+
 library.add(faLinkedin);
 library.add(faSquareGithub);
 library.add(faSquareTwitter);
