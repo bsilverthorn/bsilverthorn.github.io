@@ -19,11 +19,11 @@ jobs:
           node-version: 19
       - run: npm ci
       - name: Build
-        run: npm run docs:build
+        run: npm run site:build
       - name: Upload
         uses: actions/upload-pages-artifact@v1
         with:
-          path: docs/.vitepress/dist
+          path: site/.vitepress/dist
   deploy:
     environment:
       name: github-pages
