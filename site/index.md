@@ -33,7 +33,7 @@ I'm interested in most anything related to building software or leading teams.
 
 After a PhD in AI/ML, I cofounded [a fintech company](https://techcrunch.com/2015/10/23/angaza-raises-4m-to-make-clean-energy-affordable-for-worlds-poorest/) to do something totally different: make life-changing technologies—especially solar energy and smartphones—radically more affordable for rural families in sub-Saharan Africa and beyond.
 
-Angaza has helped millions of off-grid households connect to electricity and the internet. After leading engineering and product as CTO for 10 years, I replaced myself (and then welcomed Child #1!) in 2022.
+Angaza has helped millions of off-grid households connect to electricity and the internet. After leading engineering and product as CTO for 10 years, I replaced myself (and also welcomed Child #1!) in 2022.
 
 These days I'm focused on AI again. You can read a few [early thoughts](/posts/2023-01-ai-product-landscape/).
 
