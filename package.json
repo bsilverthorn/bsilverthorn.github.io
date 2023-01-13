@@ -6,7 +6,8 @@
   "scripts": {
     "site:dev": "vitepress dev site",
     "site:build": "vitepress build site",
-    "site:serve": "vitepress serve site"
+    "site:serve": "vitepress serve site",
+    "site:aspell": "aspell --mode=markdown --lang=en --personal=\"$PWD/aspell.en.pws\" check"
   },
   "author": {
     "name": "Bryan Silverthorn",
