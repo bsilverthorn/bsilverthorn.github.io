@@ -44,7 +44,7 @@ Here's a typical visualization:
 
 This visualization is a tool. It was designed and published to reinforce the points provided in the caption[^other-points].
 
-[^other-points]: It may convey other information as well. You can use a scewdriver for all manner of things, but it still has some intended purpose.
+[^other-points]: It may convey other information as well. You can use a screwdriver for all manner of things, but it still has some intended purpose.
 
 Here's another one:
 

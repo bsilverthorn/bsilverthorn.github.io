@@ -27,7 +27,7 @@ Same for this moment. It’s all still in progress. We’re still dreaming, even
 
 So, which is which? This recent crop of AI systems, GPT-* and ChatGPT and Stable Diffusion and DreamBooth and all their offspring—I'm giving up and calling it "Better AI"[^better-ai]—what value will it all actually have? What is Better AI _good for_?
 
-[^better-ai]: It's a silly name but seems clear enough. "GPT-era AI"? It's not all GPT. "Transformer-era"? It's not all transformers. "Generative AI"? Still feels narrow. Is an LLM-based converational recommender system "generative"?
+[^better-ai]: It's a silly name but seems clear enough. "GPT-era AI"? It's not all GPT. "Transformer-era"? It's not all transformers. "Generative AI"? Still feels narrow. Is an LLM-based conversational recommender system "generative"?
 
 I’m more interested in implications for business than for, say, high school homework, and this blog post is my attempt at structuring some ways of thinking about market impact. Writing it down helps my thought process, and making it public helps me gather more input.
 
