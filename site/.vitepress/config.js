@@ -18,6 +18,16 @@ const config = {
             md.use(markdownItFootnote);
         },
     },
+    head: [
+        [
+            'link',
+            {
+                rel: 'alternate',
+                type: 'application/rss+xml',
+                href: '/feed.rss'
+            }
+        ],
+    ],
     themeConfig: {
         nav: [
             { text: 'Contact', link: '/' },
