@@ -13,6 +13,8 @@ _circa Dec. 2022_
 Moving pictures
 ---------------
 
+<div id="excerpt">
+
 Something that stuck with me after reading James Gleick's _Chaos_ ages ago—back when "chaos theory" was prominent in pop culture, and especially in pop science, slightly akin to how AI is treated today—was how important visualization and intuition felt to people working in that area:
 
 !["To chaos researchers, mathematics has become an experimental science"](./chaos_pictures.png 'James Gleick, _Chaos_, 1987 - [Google Books](https://www.google.com/books/edition/Chaos/OoLNzl4XpPUC)')
@@ -20,6 +22,8 @@ Something that stuck with me after reading James Gleick's _Chaos_ ages ago—bac
 Sounds kind of overblown from 30 years' distance, although maybe that's just ["'Seinfeld' Is Unfunny"](https://tvtropes.org/pmwiki/pmwiki.php/Main/SeinfeldIsUnfunny) for science?
 
 I have no idea whether Gleick accurately characterizes the research culture in chaos / nonlinear dynamics, then or now. I raise this example only because I think there's a rough connection to AI, and that these anonymous "chaos specialists" aren't wrong. Maybe we'd all benefit from a little more of their attitude?
+
+</div>
 
 Here's the thought process:
 
