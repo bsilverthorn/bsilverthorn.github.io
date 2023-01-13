@@ -9,12 +9,6 @@ const config = {
     title: 'Bryan Silverthorn',
     lang: 'en-US',
     appearance: false,
-    head: [
-        [
-            'script',
-            { src: 'https://platform.twitter.com/widgets.js', 'defer': true },
-        ],
-    ],
     markdown: {
         config: (md) => {
             md.use(imageFigures, {
