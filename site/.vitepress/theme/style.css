@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+figure {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.75em;
+    margin-bottom: 1.75em;
+}
+
+figure > img {
+    max-width: 90%;
+}
+
+figcaption {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: rotate(-90deg);
+    transform-origin: top left;
+    width: 25em;
+    font-size: 0.75em;
+}
+
+sup {
+    font-size: 70%;
+    line-height: 0;
+}
+
+hr.footnotes-sep {
+    display: none;
+}
+
+.vp-doc h2 {
+    border-top: 0px;
+    margin-top: 0px;
+}
