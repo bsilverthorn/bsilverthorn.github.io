@@ -52,7 +52,7 @@ This visualization is a tool. It was designed and published to reinforce the poi
 
 Here's another one:
 
-![Figure 1 from DDPM paper](./ddpm_samples.png '"Denoising Diffusion Probabilistic Models",<br> Dec. 2020 - [arXiv](https://arxiv.org/abs/2006.11239)')
+![Figure 1 from DDPM paper](./ddpm_samples.png '"Denoising Diffusion Probabilistic Models", Dec. 2020 - [arXiv](https://arxiv.org/abs/2006.11239)')
 
 This visualization is less focused. It's a tool, intended to convey good sample quality, but it's more toy-like: the reader feels encouraged to look at the samples provided and follow their own train of thought. That's a limited flavor of freedom, though. To the extent that this example is a toy, it's not a very fun one.
 

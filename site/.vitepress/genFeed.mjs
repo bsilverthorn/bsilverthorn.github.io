@@ -64,6 +64,16 @@ posts.forEach((post) => {
   const file = path.resolve(dirname, `dist${post.href}`)
   const rendered = readFileSync(file, 'utf-8')
   const $ = cheerio.load(rendered);
+
+  // manually munge contents to improve RSS friendliness
+  $("a.header-anchor").remove();
+  $("h2#notes").remove();
+  $("sup.footnote-ref a").each((i, e) => {
+    $(e).replaceWith($(e).text());
+  });
+  $("a.footnote-backref").remove();
+
+  // generate the feed item
   const description = $("div#excerpt").html();
   const content = $("main").html();
 
