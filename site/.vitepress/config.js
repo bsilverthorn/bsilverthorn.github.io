@@ -42,7 +42,7 @@ const config = {
                     collapsible: true,
                     collapsed: true,
                     items: [
-                        { text: 'AI research could use toys', link: '/posts/2022-12-diffusion-grid/' },
+                        { text: 'More toys for AI research', link: '/posts/2022-12-diffusion-grid/' },
                     ]
                 }
             ],
