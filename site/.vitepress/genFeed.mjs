@@ -1,6 +1,5 @@
-// adapted from https://github.com/vuejs/blog/blob/54e01bc78c12bf27afc4eeb669d4a46227257bc1/.vitepress/genFeed.ts
+// adapted from https://github.com/vuejs/blog/
 
-import fs from 'fs';
 import walkSync from 'walk-sync';
 import matter from 'gray-matter';
 import path from 'path';
@@ -15,40 +14,24 @@ const postDir = path.resolve(dirname, '../posts');
 
 function getPost(file, postDir) {
   const fullePath = path.join(postDir, file);
-  const src = fs.readFileSync(fullePath, 'utf-8');
+  const src = readFileSync(fullePath, 'utf-8');
   const { data } = matter(src);
 
   const post = {
     title: data.title,
-    href: `/posts/${file.replace(/\.md$/, '.html')}`,
-    date: formatDate(data.date),
+    href: `/posts/${file.replace(/index\.md$/, '')}`,
+    html: `dist/posts/${file.replace(/\.md$/, '.html')}`,
+    date: new Date(data.date),
     data: data,
   }
 
   return post
 }
 
-function formatDate(date) {
-  if (!(date instanceof Date)) {
-    date = new Date(date);
-  }
-
-  date.setUTCHours(12);
-
-  return {
-    time: +date,
-    string: date.toLocaleDateString('en-US', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric'
-    }),
-  };
-}
-
 const posts = walkSync(postDir, { globs: ['*/index.md'] })
   .filter((file) => /\.md$/.test(file))
   .map((file) => getPost(file, postDir))
-  .sort((a, b) => b.date.time - a.date.time);
+  .sort((a, b) => b.date - a.date);
 
 const feed = new Feed({
   title: 'Bryan Silverthorn',
@@ -61,8 +44,8 @@ const feed = new Feed({
 });
 
 posts.forEach((post) => {
-  const file = path.resolve(dirname, `dist${post.href}`)
-  const rendered = readFileSync(file, 'utf-8')
+  const file = path.resolve(dirname, post.html);
+  const rendered = readFileSync(file, 'utf-8');
   const $ = cheerio.load(rendered);
 
   // manually munge contents to improve RSS friendliness
@@ -74,7 +57,6 @@ posts.forEach((post) => {
   $("a.footnote-backref").remove();
 
   // generate the feed item
-  const description = $("div#excerpt").html();
   const content = $("main").html();
 
   if (!content) {
@@ -85,10 +67,11 @@ posts.forEach((post) => {
     title: post.title,
     id: `${blogUrl}${post.href}`,
     link: `${blogUrl}${post.href}`,
-    description: description,
+    description: post.data.description,
     content: content,
     date: post.data.date,
   });
 });
+console.log(feed);
 
 writeFileSync(path.resolve(dirname, 'dist/feed.rss'), feed.rss2())

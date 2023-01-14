@@ -1,6 +1,8 @@
 ---
 title: Three views of the AI product landscape
 lang: en-US
+description: How will "Better AI" manifest in the market?
+date: 2023-01-11
 ---
 
 <style>

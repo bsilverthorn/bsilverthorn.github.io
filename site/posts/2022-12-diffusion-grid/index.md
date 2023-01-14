@@ -1,6 +1,8 @@
 ---
 title: AI research could use more toys
 lang: en-US
+description: Maybe we can build research intuition more intentionally.
+date: 2022-12-09
 ---
 
 {{ $frontmatter.title }}
@@ -8,12 +10,10 @@ lang: en-US
 
 _circa Dec. 2022_
 
-[This started out as a quick pointer to [Diffusion Grid](https://diffusion-grid.silverthorn.blog/), then somehow morphed into musing about visualization and intuition in research.]
+[This started out as a quick pointer to [Diffusion Grid](https://diffusion-grid.silverthorn.blog/), but ended up as musing about visualization in research.]
 
 Moving pictures
 ---------------
-
-<div id="excerpt">
 
 Something that stuck with me after reading James Gleick's _Chaos_ ages ago—back when "chaos theory" was prominent in pop culture, and especially in pop science, slightly akin to how AI is treated today—was how important visualization and intuition felt to people working in that area:
 
@@ -22,8 +22,6 @@ Something that stuck with me after reading James Gleick's _Chaos_ ages ago—bac
 Sounds kind of overblown from 30 years' distance, although maybe that's just ["'Seinfeld' Is Unfunny"](https://tvtropes.org/pmwiki/pmwiki.php/Main/SeinfeldIsUnfunny) for science?
 
 I have no idea whether Gleick accurately characterizes the research culture in chaos / nonlinear dynamics, then or now. I raise this example only because I think there's a rough connection to AI, and that these anonymous "chaos specialists" aren't wrong. Maybe we'd all benefit from a little more of their attitude?
-
-</div>
 
 Here's the thought process:
 
@@ -100,7 +98,7 @@ Maybe that's one reason notebooks are popular, especially for mass experimentati
 Fin
 ---
 
-That's it. Toys are good. Have fun.
+That's it. Toys are good. Have fun!
 
 <p style="text-align: center;">
 ❧
