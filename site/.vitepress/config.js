@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress';
 import imageFigures from 'markdown-it-image-figures';
 import markdownItFootnote from 'markdown-it-footnote';
+import { faviconPath } from './faviconPath.mjs';
 
 /**
  * @type {import('vitepress').UserConfig}
@@ -25,6 +26,14 @@ const config = {
                 rel: 'alternate',
                 type: 'application/rss+xml',
                 href: '/feed.rss'
+            }
+        ],
+        [
+            'link',
+            {
+                rel: 'icon',
+                type: 'image/png',
+                href: faviconPath,
             }
         ],
     ],

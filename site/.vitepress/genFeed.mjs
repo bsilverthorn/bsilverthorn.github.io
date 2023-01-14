@@ -7,6 +7,7 @@ import * as cheerio from 'cheerio';
 import { readFileSync, writeFileSync } from 'fs';
 import { Feed } from 'feed';
 import { fileURLToPath } from 'url';
+import { faviconPath } from './faviconPath.mjs';
 
 const blogUrl = "https://silverthorn.blog";
 const dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -39,7 +40,7 @@ const feed = new Feed({
   id: blogUrl,
   link: blogUrl,
   language: 'en',
-  favicon: `${blogUrl}/favicon.ico`,
+  image: `${blogUrl}${faviconPath}`,
   copyright: 'Copyright © Bryan Silverthorn, 2022–present',
 });
 
