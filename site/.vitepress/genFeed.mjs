@@ -35,7 +35,7 @@ const posts = walkSync(postDir, { globs: ['*/index.md'] })
 
 const feed = new Feed({
   title: 'Bryan Silverthorn',
-  description: 'They sounded like good ideas at the time',
+  description: 'They seemed like good ideas at the time',
   id: blogUrl,
   link: blogUrl,
   language: 'en',
