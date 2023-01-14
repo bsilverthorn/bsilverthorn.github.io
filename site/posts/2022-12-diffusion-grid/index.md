@@ -10,7 +10,7 @@ date: 2022-12-09
 
 _circa Dec. 2022_
 
-[This started out as a quick pointer to [Diffusion Grid](https://diffusion-grid.silverthorn.blog/), but ended up as musing about visualization in research.]
+[This started out as a quick pointer to [Diffusion Grid](https://diffusion-grid.silverthorn.blog/), but ended up as some musing about visualization in research.]
 
 Moving pictures
 ---------------
