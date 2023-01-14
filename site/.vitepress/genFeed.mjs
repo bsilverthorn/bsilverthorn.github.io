@@ -25,7 +25,7 @@ function getPost(file, postDir) {
     data: data,
   }
 
-  return post
+  return post;
 }
 
 const posts = walkSync(postDir, { globs: ['*/index.md'] })
@@ -40,7 +40,7 @@ const feed = new Feed({
   link: blogUrl,
   language: 'en',
   favicon: `${blogUrl}/favicon.ico`,
-  copyright: 'Copyright © Bryan Silverthorn, 2022–present'
+  copyright: 'Copyright © Bryan Silverthorn, 2022–present',
 });
 
 posts.forEach((post) => {
@@ -60,7 +60,7 @@ posts.forEach((post) => {
   const content = $("main").html();
 
   if (!content) {
-    throw new Error(`no content match found for file ${post.href}`)
+    throw new Error(`no content match found for file ${post.href}`);
   }
 
   feed.addItem({
@@ -73,4 +73,4 @@ posts.forEach((post) => {
   });
 });
 
-writeFileSync(path.resolve(dirname, 'dist/feed.rss'), feed.rss2())
+writeFileSync(path.resolve(dirname, 'dist/feed.rss'), feed.rss2());
