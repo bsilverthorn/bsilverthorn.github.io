@@ -72,6 +72,5 @@ posts.forEach((post) => {
     date: post.data.date,
   });
 });
-console.log(feed);
 
 writeFileSync(path.resolve(dirname, 'dist/feed.rss'), feed.rss2())
