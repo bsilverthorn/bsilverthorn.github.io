@@ -21,7 +21,7 @@ Hurry up, we're dreaming
 
 The present mood feels as if we just woke up to find ourselves in AI-flavored [Algorithmica](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=514853): a world in which every previously intractable AI problem is now a mere matter of prompt engineering.
 
-That's not our world, of course. Plenty remains intractable. But it feels as if the space of possibilities has grown overnight, maybe in the same way we could start to imagine flying cars and rooftop aerodromes along with airlines and supersonic flight. We knew that aircraft were revolutionary, but weren’t quite sure where the revolution would lead.
+That's not our world, of course. Plenty remains intractable. But it feels otherwise, as if the space of possibilities has grown overnight, maybe in the same way we started to imagine flying cars and rooftop aerodromes along with airlines and supersonic flight. We knew that aircraft were revolutionary, but weren’t quite sure where the revolution would lead.
 
 ![Popular Mechanics - City of Tomorrow](./city_of_tomorrow_crop3.png '_Popular Science_, Nov. 1939 - [Google Books](https://books.google.com/books?id=QywDAAAAMBAJ&pg=PA70#v=onepage&q&f=false)')
 
