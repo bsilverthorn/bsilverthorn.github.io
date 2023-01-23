@@ -18,7 +18,7 @@ _circa Jan. 2023_
 
 [Some updates are in the notes[^edits].]
 
-[^edits]: :hammer: - as of 2023-01-23: a few see-also links[^contemporaneous]; [Microsoft + Bing](#edit-bing); [Code Red](#edit-code-red).
+[^edits]: :hammer: - as of 2023-01-23: a few see-also links[^contemporaneous]; [Microsoft + Bing](#edit-bing); [Code Red](#edit-code-red); [text-to-3D](#edit-games-3d).
 
 [^contemporaneous]: :hammer: - many people published relevant essays around the same time, e.g., [Ben Thompson](https://stratechery.com/2023/ai-and-the-big-five/), [Shawn Wang](https://lspace.swyx.io/p/google-vs-openai), [@nostalgebraist](https://nostalgebraist.tumblr.com/post/705192637617127424/gpt-4-prediction-it-wont-be-very-useful). Or [this meta-list of "generative AI" market maps](https://twitter.com/nathanbenaich/status/1613929316890587140). Or, maybe we're all wasting our time, because [AI-based companies are indefensible](https://twitter.com/bindureddy/status/1608918589079441409)?
 
@@ -66,7 +66,9 @@ Stable Diffusion : artist :: ATM : bank teller
 
 and of the examples so far, generative art does seem closest to a perfect substitute—at least in some domains.
 
-Specifically, it’s easy to imagine text-to-image models replacing a large fraction of human labor in domains where “lots of custom art” is a key production input. Game development is the prime example. Generative models aren’t quite there yet for 3D, but similar techniques apply and will probably drive rapid progress; we’ve already seen [DreamFusion](https://dreamfusion3d.github.io/), [Point·E](https://arxiv.org/abs/2212.08751), and more. 
+Specifically, it’s easy to imagine text-to-image models replacing a large fraction of human labor in domains where “lots of custom art” is a key production input. Game development is the prime example. Generative models aren’t quite there yet for 3D, but similar techniques apply and will probably drive rapid progress; we’ve already seen [DreamFusion](https://dreamfusion3d.github.io/), [Point·E](https://arxiv.org/abs/2212.08751), <span id="edit-games-3d">and more[^games-3d]</span>.
+
+[^games-3d]: :hammer: - [good summary from :hugs:](https://huggingface.co/blog/ml-for-games-3).
 
 Marketing workflows aren’t quite as art-heavy as games development, but they involve repetitive content manipulations that seem increasingly amenable to automation. It’s no surprise that commercial tools already target this space. These products are rapidly adopting new methods, e.g., [PhotoRoom](https://www.photoroom.com/), which helps small ecommerce sellers generate collateral, quickly made text-to-image features a key selling point:
 
