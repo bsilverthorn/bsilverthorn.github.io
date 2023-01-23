@@ -37,7 +37,7 @@ This post offers three views[^disclaimer] of how Better AI may manifest in the m
 
 - Better AI as human replacement, i.e., products that substitute for labor in some way
 - Better AI as unreliable oracle, i.e., products that operate in domains tolerant of mistakes
-- Better AI as inflection point, i.e., products that will act as classic disruptive forces
+- Better AI as inflection point, i.e., products that disrupt existing markets (or don't)
 
 These are not predictions. They are different vantage points looking out over the product landscape: the views all overlap, but expose different features of the terrain. The hope is that multiple perspectives lead to multiple conclusions about where this moment may lead.
 
