@@ -16,6 +16,12 @@ date: 2023-01-11
 
 _circa Jan. 2023_
 
+[Some updates are in the notes[^edits].]
+
+[^edits]: :hammer: - as of 2023-01-23: a few see-also links[^contemporaneous]; [Microsoft + Bing](#edit-bing); [Code Red](#edit-code-red).
+
+[^contemporaneous]: :hammer: - many people published relevant essays around the same time, e.g., [Ben Thompson](https://stratechery.com/2023/ai-and-the-big-five/), [Shawn Wang](https://lspace.swyx.io/p/google-vs-openai), [@nostalgebraist](https://nostalgebraist.tumblr.com/post/705192637617127424/gpt-4-prediction-it-wont-be-very-useful). Or [this meta-list of "generative AI" market maps](https://twitter.com/nathanbenaich/status/1613929316890587140). Or, maybe we're all wasting our time, because [AI-based companies are indefensible](https://twitter.com/bindureddy/status/1608918589079441409)?
+
 Hurry up, we're dreaming
 ------------------------
 
@@ -196,7 +202,11 @@ However, just because Better AI _can_ mean Better Existing Product doesn't mean 
 
 Moreover, at least some domains will admit entirely fresh interfaces that build directly on what Better AI can do. New interfaces are a classic tech market catalyst. At minimum, they require competent execution; at maximum, they can mean new platforms, new gatekeepers, and megabusinesses in the vein of GAFAM.
 
-Google itself is a prominent example of a business under product threat from Better AI: in many cases, LLM + chat is already more useful than web search as a tool for accessing the world's information. To make matters worse, Google hasn't exactly built a reputation for strong product direction or sustained execution. Maybe all it takes is a [“Tidal Wave” memo](https://lettersofnote.com/2011/07/22/the-internet-tidal-wave/) from Sundar? We’ll see.
+Google itself is a prominent example of a business under <span id="edit-bing">product threat from Better AI[^bing]</span>: in many cases, LLM + chat is already more useful than web search as a tool for accessing the world's information. To make matters worse, Google hasn't exactly built a reputation for strong product direction or sustained execution. Maybe all it takes is a <span id="edit-code-red">[“Tidal Wave” memo](https://lettersofnote.com/2011/07/22/the-internet-tidal-wave/)[^code-red]</span> from Sundar? We’ll see.
+
+[^bing]: :hammer: - in ways more or less explicit. I'd bet on "less", but hey, sounds like Bing [will come at the king](https://www.theinformation.com/articles/microsoft-and-openai-working-on-chatgpt-powered-bing-in-challenge-to-google), glhf.
+
+[^code-red]: :hammer: - sorry, ["Code Red"](https://www.nytimes.com/2022/12/21/technology/ai-chatgpt-google-search.html).
 
 ### Market threats
 
