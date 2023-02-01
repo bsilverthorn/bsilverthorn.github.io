@@ -18,9 +18,9 @@ _circa Jan. 2023_
 
 [Some updates are in the notes[^edits].]
 
-[^edits]: :hammer: - as of 2023-01-23: a few see-also links[^contemporaneous]; [Microsoft + Bing](#edit-bing); [Code Red](#edit-code-red); [text-to-3D](#edit-games-3d).
+[^edits]: :hammer: - as of 2023-01-23 and -02-01: a few see-also links[^contemporaneous]; [Microsoft + Bing](#edit-bing); [Code Red](#edit-code-red); [text-to-3D](#edit-games-3d); [FLAME](#edit-excel-flame).
 
-[^contemporaneous]: :hammer: - many people published relevant essays around the same time, e.g., [Ben Thompson](https://stratechery.com/2023/ai-and-the-big-five/), [Shawn Wang](https://lspace.swyx.io/p/google-vs-openai), [@nostalgebraist](https://nostalgebraist.tumblr.com/post/705192637617127424/gpt-4-prediction-it-wont-be-very-useful). Or [this meta-list of "generative AI" market maps](https://twitter.com/nathanbenaich/status/1613929316890587140). Or, maybe we're all wasting our time, because [AI-based companies are indefensible](https://twitter.com/bindureddy/status/1608918589079441409)?
+[^contemporaneous]: :hammer: - many people published relevant essays around the same time, e.g., [Ben Thompson](https://stratechery.com/2023/ai-and-the-big-five/), [Shawn Wang](https://lspace.swyx.io/p/google-vs-openai), [@nostalgebraist](https://nostalgebraist.tumblr.com/post/705192637617127424/gpt-4-prediction-it-wont-be-very-useful). Or [this meta-list of "generative AI" market maps](https://twitter.com/nathanbenaich/status/1613929316890587140). Or, maybe we're all wasting our time, because [AI-based companies are indefensible](https://twitter.com/bindureddy/status/1608918589079441409) and/or [wildly overhyped](https://proofinprogress.com/posts/2023-02-01/the-ai-crowd-is-mad.html)?
 
 Hurry up, we're dreaming
 ------------------------
@@ -190,7 +190,9 @@ We can use that distinction as a way to subdivide the landscape: some businesses
 
 ### Product threats
 
-Better AI seems good at bridging the gap between how humans communicate and how software works. This makes it a great complement to a huge range of existing products. ChatGPT already makes for a handy Excel companion:
+Better AI seems good at bridging the gap between how humans communicate and how software works. This makes it a great complement to a huge range of existing products. ChatGPT already makes for a handy <span id="edit-excel-flame">Excel companion[^excel-flame]</span>:
+
+[^excel-flame]: :hammer: - here's an Excel-specific [language model](https://arxiv.org/abs/2301.13779).
 
 ![ChatGPT example](./chatgpt_excel_wraparound.png)
 
