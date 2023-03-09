@@ -6,8 +6,8 @@ figure {
     position: relative;
     display: flex;
     justify-content: center;
-    margin-top: 1.75em;
-    margin-bottom: 1.75em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
 
 figure > img {
@@ -24,6 +24,11 @@ figcaption {
     font-size: 0.75em;
 }
 
+.vp-doc div[class*="language-"] {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
 sup {
     font-size: 70%;
     line-height: 0;
@@ -36,4 +41,52 @@ hr.footnotes-sep {
 .vp-doc h2 {
     border-top: 0px;
     margin-top: 0px;
+}
+
+/* torn edge; implemented by ChatGPT */
+
+.torn-edge {
+  position: relative;
+  overflow: hidden;
+}
+
+.torn-edge img {
+  display: block;
+  width: 100%;
+  height: auto;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 90%,
+    90% 95%,
+    80% 90%,
+    70% 95%,
+    60% 90%,
+    50% 95%,
+    40% 90%,
+    30% 95%,
+    20% 90%,
+    10% 95%,
+    0 90%
+  );
+  position: relative;
+  z-index: 1;
+}
+
+.torn-edge::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  background-image: linear-gradient(
+    to bottom,
+    transparent 0,
+    rgba(255, 255, 255, 0.5) 20%,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(255, 255, 255, 0.5) 80%,
+    transparent 100%
+  );
+  z-index: 2;
 }
