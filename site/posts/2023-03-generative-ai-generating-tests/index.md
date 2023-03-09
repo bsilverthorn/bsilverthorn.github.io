@@ -12,15 +12,14 @@ _circa Mar. 2023_
 
 [TL;DR: Yes. Expect rough edges. Start with ChatGPT, then give CodiumAI a shot.]
 
-The machine that made us
-------------------------
+C'mon miracle
+-------------
 
 Many programmers enjoy programming; the number who enjoy programming _unit tests_ is somewhat smaller.
 
 No surprise there. Test code can be a slog: verbose, repetitive, boring. The weight of test code commonly exceeds that of application code. And, despite what TDD might preach, test code is often written after application code, i.e., after you have (you believe) already delivered a large chunk of the short-term business value. Easy to feel like the whole thing is mere box-checking.
 
 A friend recently asked if AI might save us from this drudgery. This post is my answer: a breezy survey of AI tools for generating unit tests.
-
 
 I've been using Copilot for a while (aren't you?[^copilot-productivity]). Copilot is flexible and it can generate tests if you ask. It's not the only tool for code generation, however, and some tools focus on generating test code specifically. I'll breeze through 4 tools in all:
 
@@ -672,12 +671,12 @@ That may or may not be worth the trouble, especially because Copilot (per my imp
 
 ### Quick take
 
-Copilot is a fine partner if you'll otherwise write the test suite manually. If you're hoping for more support, though, I'd start with a different option, then leverage Copilot for finishing touches.
+Copilot is a fine partner if you'll otherwise write the test suite manually. If you're hoping for more support, though, I'd start with a different option, then apply Copilot on the finishing touches.
 
 _Should_ AI write your tests?
 -----------------------------
 
-This point is obvious but I feel obligated to emphasize it: tests provide value in at least two ways.
+This point is obvious but I feel obligated to emphasize it: tests provide value in multiple ways.
 
 First, they provide value by _testing_, i.e., by catching bugs, especially regressions. One typical argument for unit testing is that it decreases change risk and thus increases the development velocity of your team.
 
@@ -690,6 +689,15 @@ This value goes away if an AI tool writes all your tests.
 The extent to which you find test-generation tools appealing will depend on the extent to which you believe each of the arguments above. In practice, of course, the more likely options may be “generated tests” or “no tests”, not “small-batch artisanal tests”.
 
 Regardless, these tradeoffs lie in the future. Today's tools require much more oversight—even for this type of self-contained code ideal for unit testing.
+
+Wrapping up
+-----------
+
+Can AI write your unit tests?
+
+Yes, AI tools can design relevant test suites and generate useful test code today, at least in simple situations. Some of the code is even correct. These tools are likely to make your test development process a bit more productive.
+
+You may hope, however, for something more holistic: a helpful and vigilant AI coworker, well-versed in your entire codebase, aware of what's tested and not tested, writing tests for the not-tested stuff, running those tests, uncovering bugs and telling you how to fix them. There's nothing like that yet, AFAIK, but we are headed in that direction.
 
 <p style="text-align: center;">
 ❧
