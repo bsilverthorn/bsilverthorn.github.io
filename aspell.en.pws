@@ -1,9 +1,10 @@
-personal_ws-1.1 en 42 
+personal_ws-1.1 en 50 
 AGI
 Algorithmica
 Animaze
 ChatGPT
 Colab
+Ctrl
 DDPM
 DSLs
 DreamBooth
@@ -15,6 +16,7 @@ GUIs
 Galactica
 Gradio
 JQL
+JS
 JSON
 Jira
 Jupyter
@@ -29,11 +31,17 @@ Replika
 TikTok
 UX
 Waymark
+artisanal
 autocomplete
+codebase
 curation
 ecommerce
 frictionless
 frontend
+frontmatter
+iterable
+lang
+pseudorandom
 recommender
 reddit
 schemas

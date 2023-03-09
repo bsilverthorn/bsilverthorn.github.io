@@ -43,7 +43,7 @@ These tools are quite immature, as we'll see, but I believe that test generation
 
 Current language models are particularly good at producing semi-repetitive structures. If you've used Copilot, you've probably noticed that its sweet spot is generating new instances of a pattern given an earlier example (e.g., implementing `__repr()__` for a new class in the same style as `__repr()__` in your other classes). More generally, "complete this partial list of examples" is the standard way to do few-shot prompting.
 
-When generating unit tests, the language model receives plenty of structured context: at least signature(s) of the code under test; more likely a complete or largely complete implentation. The later in development you add the tests, the more context you give the model.
+When generating unit tests, the language model receives plenty of structured context: at least signature(s) of the code under test; more likely a complete or largely complete implementation. The later in development you add the tests, the more context you give the model.
 
 Better yet, if your application code exists, the AI tool gets a chance to learn more by actually running the tests. As we'll see, ChatGPT can often fix its own bugs if you feed it the errors produced by its code.
 
