@@ -53,6 +53,7 @@ const config = {
                     text: '2023',
                     collapsible: true,
                     items: [
+                        { text: 'Can AI write your unit tests?', link: '/posts/2023-03-generative-ai-generating-tests/' },
                         { text: 'The AI product landscape', link: '/posts/2023-01-ai-product-landscape/' },
                     ]
                 },
