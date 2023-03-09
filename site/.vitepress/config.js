@@ -40,7 +40,7 @@ const config = {
     themeConfig: {
         nav: [
             { text: 'Contact', link: '/' },
-            { text: 'Writing', link: '/posts/2023-01-ai-product-landscape/' },
+            { text: 'Writing', link: '/posts/2023-03-generative-ai-generating-tests/' },
         ],
         socialLinks: [
             { icon: 'linkedin', link: 'https://linkedin.com/in/bsilverthorn/' },
