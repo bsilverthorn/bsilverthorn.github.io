@@ -15,9 +15,9 @@ _circa Mar. 2023_
 C'mon miracle
 -------------
 
-Many programmers enjoy programming; the number who enjoy programming _unit tests_ is somewhat smaller.
+Many programmers enjoy programming. The number who enjoy programming _unit tests_ is somewhat smaller.
 
-No surprise there. Test code can be a slog: verbose, repetitive, boring. The weight of test code commonly exceeds that of application code. And, despite what TDD might preach, test code is often written after application code, i.e., after you have (you believe) already delivered a large chunk of the short-term business value. Easy to feel like the whole thing is mere box-checking.
+No surprise there. Test code can be verbose, repetitive, and boring. The weight of test code commonly exceeds that of application code. And, despite what TDD might preach, tests are often written last, i.e., after you have (you believe) already delivered a large chunk of the short-term business value. Easy to feel like the whole thing is mere box-checking.
 
 A friend recently asked if AI might save us from this drudgery. This post is my answer: a breezy survey of AI tools for generating unit tests.
 
@@ -39,7 +39,7 @@ AI is a good fit for test generation
 
 First, a tangent about test generation as an AI application:
 
-These tools are quite immature, as we'll see, but I believe that test generation fundamentally is a good use case for AI—and for many of the same reasons it can be a poor fit for people.
+These tools are quite immature, as we'll see, but I believe that test generation fundamentally is a good use case for AI—for many of the same reasons it can be a poor fit for people, i.e., it's verbose, repetitive, and boring.
 
 Current language models are particularly good at producing semi-repetitive structures. If you've used Copilot, you've probably noticed that its sweet spot is generating new instances of a pattern given an earlier example (e.g., implementing `__repr()__` for a new class in the same style as `__repr()__` in your other classes). More generally, "complete this partial list of examples" is the standard way to do few-shot prompting.
 
