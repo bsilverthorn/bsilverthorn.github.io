@@ -267,7 +267,7 @@ ChatGPT giveth and ChatGPT taketh: it fixes the two failing tests, and also rewr
 
 Oops.
 
-In my experience, it is important to keep your eye on the prize in these situations: you _can_ go another couple rounds with ChatGPT and coax it into correcting this new mistake, but your goal probably isn't “_ChatGPT emits_ the source that I want”, it's more like “_I get_ the source that I want”. Here you reach that goal most easily by ignoring the new broken test and sticking with the old working one.
+In my experience, it is important to keep your eye on the prize in these situations. You _can_ go another couple rounds with ChatGPT and coax it into correcting this new mistake, but your goal probably isn't “_ChatGPT emits_ the source that I want”, it's more like “_I get_ the source that I want”. Here you reach that goal most easily by ignoring the new broken test and sticking with the old working one.
 
 Now our AI-generated test suite is :green_circle::
 
