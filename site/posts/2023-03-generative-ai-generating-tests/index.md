@@ -25,7 +25,7 @@ I've been using Copilot for a while (aren't you?[^copilot-productivity]). Copilo
 
 [^copilot-productivity]: I believe [their marketing survey](https://github.blog/2022-09-07-research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/).
 
-- [ChatGPT](https://chat.openai.com/chat)
+- [ChatGPT](https://chat.openai.com/chat) _[and see [GPT-4 edit](#edit-let-s-try-gpt-4) :hammer:]_
 - [CodiumAI](https://www.codium.ai/)
 - [TestPilot](https://githubnext.com/projects/testpilot/)
 - [Copilot](https://github.com/features/copilot)
@@ -702,6 +702,81 @@ You may hope, however, for something more holistic: a helpful and vigilant AI co
 <p style="text-align: center;">
 ❧
 </p>
+
+:hammer: Edit - Let's try GPT-4
+----------------
+
+GPT-4 emerged a few days after this blog post. How does it fare on `generate_splits()`? Here's the meat of its output:
+
+```python
+class TestGenerateSplits(unittest.TestCase):
+
+    def setUp(self):
+        # Set up a fixed seed for testing purposes.
+        random.seed(42)
+        self.sample_lines = ["a", "b", "c", "d", "e", "f", "g", "h"]
+
+    def test_correct_split_size(self):
+        result = generate_splits(self.sample_lines, 0.5)
+        self.assertEqual(len(result["left"]), 4)
+        self.assertEqual(len(result["right"]), 4)
+
+    def test_left_fraction_zero(self):
+        result = generate_splits(self.sample_lines, 0)
+        self.assertEqual(len(result["left"]), 0)
+        self.assertEqual(len(result["right"]), 8)
+
+    def test_left_fraction_one(self):
+        result = generate_splits(self.sample_lines, 1)
+        self.assertEqual(len(result["left"]), 8)
+        self.assertEqual(len(result["right"]), 0)
+
+    def test_random_shuffle_and_split(self):
+        result1 = generate_splits(self.sample_lines, 0.5)
+        result2 = generate_splits(self.sample_lines, 0.5)
+        self.assertNotEqual(result1["left"], result2["left"])
+        self.assertNotEqual(result1["right"], result2["right"])
+
+if __name__ == '__main__':
+    unittest.main()
+```
+
+Those tests look reasonable, and they all pass:
+
+```
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
+```
+
+Note that, unlike every other system we looked at, GPT-4 tests the core functionality of the method.
+
+It can also produce a new test case given extremely vague guidance:
+
+![GPT-4 - add a new test case](./gpt_4_splits_are_sane.png)
+
+::: details (see code output)
+```python
+    def test_splits_contents_sane(self):
+        result = generate_splits(self.sample_lines, 0.5)
+
+        # Check that the elements in "left" and "right" are not duplicated
+        left_set = set(result["left"])
+        right_set = set(result["right"])
+        self.assertEqual(len(left_set), len(result["left"]))
+        self.assertEqual(len(right_set), len(result["right"]))
+
+        # Check that the union of "left" and "right" is equal to the original set of lines
+        union_set = left_set.union(right_set)
+        self.assertEqual(union_set, set(self.sample_lines))
+```
+:::
+
+This test case is fairly close to what I had in mind. It also passes without modification.
+
+I'm impressed.
 
 Notes
 -----
