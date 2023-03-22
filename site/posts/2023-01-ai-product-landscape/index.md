@@ -18,7 +18,7 @@ _circa Jan. 2023_
 
 [Some updates are in the notes[^edits].]
 
-[^edits]: :hammer: - as of 2023-01-23 and -02-01: a few see-also links[^contemporaneous]; [Microsoft + Bing](#edit-bing); [Code Red](#edit-code-red); [text-to-3D](#edit-games-3d); [FLAME](#edit-excel-flame).
+[^edits]: :hammer: as of 2023-01-23 and -02-01 - a few see-also links[^contemporaneous]; [Microsoft + Bing](#edit-bing); [Code Red](#edit-code-red); [text-to-3D](#edit-games-3d); [FLAME](#edit-excel-flame).
 
 [^contemporaneous]: :hammer: - many people published relevant essays around the same time, e.g., [Ben Thompson](https://stratechery.com/2023/ai-and-the-big-five/), [Shawn Wang](https://lspace.swyx.io/p/google-vs-openai), [@nostalgebraist](https://nostalgebraist.tumblr.com/post/705192637617127424/gpt-4-prediction-it-wont-be-very-useful). Or [this meta-list of "generative AI" market maps](https://twitter.com/nathanbenaich/status/1613929316890587140). Or, maybe we're all wasting our time, because [AI-based companies are indefensible](https://twitter.com/bindureddy/status/1608918589079441409) and/or [wildly overhyped](https://proofinprogress.com/posts/2023-02-01/the-ai-crowd-is-mad.html)?
 

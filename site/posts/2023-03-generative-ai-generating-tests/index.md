@@ -697,7 +697,9 @@ Can AI write your unit tests?
 
 Yes, AI tools can design relevant test suites and generate useful test code today, at least in simple situations. Some of the code is even correct. These tools are likely to make your test development process a bit more productive.
 
-You may hope, however, for something more holistic: a helpful and vigilant AI coworker, well-versed in your entire codebase, aware of what's tested and not tested, writing tests for the not-tested stuff, running those tests, uncovering bugs and telling you how to fix them. There's nothing like that yet, AFAIK, but we are headed in that direction.
+You may hope, however, for something more holistic: a helpful and vigilant AI coworker, well-versed in your entire codebase, aware of what's tested and not tested, writing tests for the not-tested stuff, running those tests, uncovering bugs and telling you how to fix them. There's nothing like that yet[^copilot-next], AFAIK, but we are headed in that direction.
+
+[^copilot-next]: :hammer: 2023-03-22 - [some progress from GitHub Copilot](https://githubnext.com/projects/copilot-for-pull-requests/#gentest).
 
 <p style="text-align: center;">
 ❧
