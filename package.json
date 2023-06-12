@@ -23,7 +23,7 @@
     "gray-matter": "^4.0.3",
     "markdown-it-footnote": "^3.0.3",
     "markdown-it-image-figures": "^2.1.1",
-    "tailwindcss": "^3.2.7",
+    "tailwindcss": "^3.3.2",
     "vitepress": "^1.0.0-alpha.29",
     "vue": "^3.2.45",
     "walk-sync": "^3.0.0"
