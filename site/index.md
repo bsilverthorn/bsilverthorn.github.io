@@ -35,7 +35,7 @@ After a PhD in AI/ML, I cofounded [a fintech company](https://techcrunch.com/201
 
 Angaza has helped millions of off-grid households connect to electricity and the internet. After leading engineering and product as CTO for 10 years, I replaced myself (and also welcomed Child #1!) in 2022.
 
-These days I'm focused on AI again. You can read a few [early thoughts](/posts/2023-01-ai-product-landscape/).
+These days I'm focused on AI again. Open to leadership roles that bring AI-enabled products to market.
 
 ### Getting in touch
 
