@@ -40,7 +40,7 @@ const config = {
     themeConfig: {
         nav: [
             { text: 'Contact', link: '/' },
-            { text: 'Writing', link: '/posts/2023-03-generative-ai-generating-tests/' },
+            { text: 'Writing', link: '/posts/2023-08-llm-assisted-programming-maccarone/' },
         ],
         socialLinks: [
             { icon: 'linkedin', link: 'https://linkedin.com/in/bsilverthorn/' },
@@ -53,6 +53,7 @@ const config = {
                     text: '2023',
                     collapsible: true,
                     items: [
+                        { text: 'Let the LLM own some code', link: '/posts/2023-08-llm-assisted-programming-maccarone/' },
                         { text: 'Can AI write your unit tests?', link: '/posts/2023-03-generative-ai-generating-tests/' },
                         { text: 'The AI product landscape', link: '/posts/2023-01-ai-product-landscape/' },
                     ]
