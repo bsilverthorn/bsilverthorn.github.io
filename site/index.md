@@ -31,11 +31,11 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 I'm interested in most anything related to building software or leading teams.
 
-After a PhD in AI/ML, I cofounded [a fintech company](https://techcrunch.com/2015/10/23/angaza-raises-4m-to-make-clean-energy-affordable-for-worlds-poorest/) to do something totally different: make life-changing technologies—especially solar energy and smartphones—radically more affordable for rural families in sub-Saharan Africa and beyond.
+After a PhD in AI/ML, I cofounded [a fintech company](https://techcrunch.com/2015/10/23/angaza-raises-4m-to-make-clean-energy-affordable-for-worlds-poorest/) to do something totally different: make life-changing technologies—solar energy and smartphones in particular—radically more affordable for rural families in sub-Saharan Africa and beyond.
 
-Angaza has helped millions of off-grid households connect to electricity and the internet. After leading engineering and product as CTO for 10 years, I replaced myself (and also welcomed Child #1!) in 2022.
+Angaza has now helped millions of households connect to electricity and the internet. After leading engineering and product as CTO for 10 years, I replaced myself (and welcomed Child #1!) in 2022.
 
-These days I'm focused on AI again. Open to leadership roles that bring AI-enabled products to market.
+Now I'm at [Adept AI](https://adept.ai), building a new way for people to use computers.
 
 ### Getting in touch
 
