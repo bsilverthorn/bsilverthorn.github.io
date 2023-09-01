@@ -16,7 +16,7 @@
   "license": "see LICENSE.md file",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
-    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
     "@fortawesome/vue-fontawesome": "^3.0.3",
     "cheerio": "^1.0.0-rc.12",
     "feed": "^4.2.2",
