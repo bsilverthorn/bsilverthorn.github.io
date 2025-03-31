@@ -17,8 +17,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 19
-      - run: npm i
-      - run: cat package-lock.json
+      - run: npm ci
       - name: Build
         run: npm run site:build
       - name: Upload
