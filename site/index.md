@@ -25,17 +25,15 @@ config.autoAddCss = false;
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 </script>
 
-⌂ It's my home page. 
+⌂ It's a home page. 
 
 ### Bio-blurb
 
-I'm interested in most anything related to building software or leading teams.
+I lead multimodal agent training inside Amazon's [AGI SF Lab](https://www.amazon.science/blog/amazon-opens-new-ai-lab-in-san-francisco-focused-on-long-term-research-bets).
 
-After a PhD in AI/ML, I cofounded [a fintech company](https://techcrunch.com/2015/10/23/angaza-raises-4m-to-make-clean-energy-affordable-for-worlds-poorest/) to do something totally different: make life-changing technologies—solar energy and smartphones in particular—radically more affordable for rural families in sub-Saharan Africa and beyond.
+Amazon [acquired](https://www.cnbc.com/2024/06/28/amazon-hires-execs-from-ai-startup-adept-and-licenses-its-technology.html) the [Adept AI](https://adept.ai) research team in 2024.
 
-Angaza has now helped millions of households connect to electricity and the internet. After leading engineering and product as CTO for 10 years, I replaced myself (and welcomed Child #1!) in 2022.
-
-Now I'm at [Adept AI](https://adept.ai), building a new way for people to use computers.
+After a PhD in AI/ML, I cofounded [a fintech company](https://techcrunch.com/2015/10/23/angaza-raises-4m-to-make-clean-energy-affordable-for-worlds-poorest/) to make life-changing technologies—solar energy and smartphones in particular—radically more affordable for rural families in sub-Saharan Africa and beyond. Angaza has now helped millions of households connect to electricity and the internet.
 
 ### Getting in touch
 
