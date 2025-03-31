@@ -8,7 +8,8 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import {
     faLinkedin,
     faSquareGithub,
-    faSquareTwitter,
+    faSquareBluesky,
+    faSquareXTwitter,
 } from '@fortawesome/free-brands-svg-icons';
 
 library.add(faLinkedin);
@@ -33,7 +34,7 @@ I lead multimodal agent training inside Amazon's [AGI SF Lab](https://www.amazon
 
 Amazon [acquired](https://www.cnbc.com/2024/06/28/amazon-hires-execs-from-ai-startup-adept-and-licenses-its-technology.html) the [Adept AI](https://adept.ai) research team in 2024.
 
-Earlier, after a PhD in AI/ML, I cofounded a [fintech](https://techcrunch.com/2015/10/23/angaza-raises-4m-to-make-clean-energy-affordable-for-worlds-poorest/) that makes life-changing technologies—such as solar energy and smartphones—radically more affordable for rural families in sub-Saharan Africa and beyond. Angaza has now helped millions of households connect to electricity and the internet.
+Earlier, after a PhD in AI/ML, I cofounded a [fintech](https://techcrunch.com/2015/10/23/angaza-raises-4m-to-make-clean-energy-affordable-for-worlds-poorest/) to make life-changing technologies—such as solar energy and smartphones—radically more affordable for rural families in sub-Saharan Africa and beyond. Angaza has now helped millions of households connect to electricity and the internet.
 
 ### Getting in touch
 
