@@ -22,7 +22,7 @@
     "cheerio": "^1.0.0",
     "feed": "^4.2.2",
     "gray-matter": "^4.0.3",
-    "markdown-it-footnote": "^3.0.3",
+    "markdown-it-footnote": "^4.0.0",
     "markdown-it-image-figures": "^2.1.1",
     "tailwindcss": "^3.3.3",
     "vitepress": "^1.6.3",
