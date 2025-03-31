@@ -18,7 +18,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
-    "@fortawesome/vue-fontawesome": "^3.0.3",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
     "cheerio": "^1.0.0",
     "feed": "^4.2.2",
     "gray-matter": "^4.0.3",
