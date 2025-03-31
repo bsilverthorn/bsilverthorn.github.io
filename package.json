@@ -1,6 +1,7 @@
 {
   "name": "silverthorn-blog",
   "version": "1.0.0",
+  "type": "module",
   "description": "silverthorn.blog blog",
   "main": "index.js",
   "scripts": {
