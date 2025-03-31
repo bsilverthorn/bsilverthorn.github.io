@@ -14,7 +14,8 @@ import {
 
 library.add(faLinkedin);
 library.add(faSquareGithub);
-library.add(faSquareTwitter);
+library.add(faSquareBluesky);
+library.add(faSquareXTwitter);
 
 // avoid flash of huge icons
 import { config } from '@fortawesome/fontawesome-svg-core';
