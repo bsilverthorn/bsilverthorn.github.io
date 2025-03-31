@@ -44,6 +44,7 @@ const config = {
         ],
         socialLinks: [
             { icon: 'linkedin', link: 'https://linkedin.com/in/bsilverthorn/' },
+            { icon: 'bluesky', link: 'https://bsky.app/profile/bsilverthorn.bsky.social' },
             { icon: 'twitter', link: 'https://twitter.com/bcsilverthorn/' },
             { icon: 'github', link: 'https://github.com/bsilverthorn/' },
         ],
