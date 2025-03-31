@@ -40,7 +40,7 @@ const config = {
     themeConfig: {
         nav: [
             { text: 'Contact', link: '/' },
-            { text: 'Writing', link: '/posts/2023-08-llm-assisted-programming-maccarone/' },
+            // { text: 'Writing', link: '/posts/2023-08-llm-assisted-programming-maccarone/' },
         ],
         socialLinks: [
             { icon: 'linkedin', link: 'https://linkedin.com/in/bsilverthorn/' },
