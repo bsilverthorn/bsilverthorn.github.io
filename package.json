@@ -18,15 +18,15 @@
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.0.0",
     "@fortawesome/free-brands-svg-icons": "^7.0.0",
-    "@fortawesome/vue-fontawesome": "^3.1.1",
+    "@fortawesome/vue-fontawesome": "^3.1.2",
     "cheerio": "^1.1.2",
     "feed": "^5.1.0",
     "gray-matter": "^4.0.3",
     "markdown-it-footnote": "^4.0.0",
     "markdown-it-image-figures": "^2.1.1",
-    "tailwindcss": "^4.1.11",
+    "tailwindcss": "^4.1.14",
     "vitepress": "^1.6.4",
-    "vue": "^3.5.18",
+    "vue": "^3.5.22",
     "walk-sync": "^3.0.0"
   },
   "private": true
